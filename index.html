@@ -454,6 +454,41 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <p class="modal-header">Zostaw swoje dane w formularzu poniżej</p>
+        <form>
+        <label class="label-form">Imie
+      <input type="text" />
+      <svg class="icon-form" >
+        <use href="./images/icons.svg#icon-icon-person" width="18"></use>
+      </svg> 
+    </label>
+    
+    <label class="label-form">Telefon
+      <input type="text" />
+      <svg class="icon-form">
+        <use href="./images/icons.svg#icon-icon-email" width="18"></use>
+      </svg>
+    </label>
+    <label class="label-form">Email
+      <input type="text" class="input-form"/>
+      <svg class="icon-form">
+        <use href="./images/icons.svg#icon-icon-person1" width="18"></use>
+      </svg>
+    </label>
+
+          <label class="modal-form" action="#" method="post">
+            <input
+              class="modal-form-policy visually-hidden"
+              id="user-policy"
+              type="checkbox"
+              name="policy"
+            />
+            <label for="user-policy" class="modal-form-policy-text"
+              >Oświadczam iż akceptuje<a href="#" class="blue"> Regulamin</span> i <a href="#">Politykę Prywatności</span></label
+            >
+          </label>
+          <button type="submit" class="form-btn">Wyślij</button>
+        </form>
         <button type="button" class="close-btn" data-modal-close>X</button>
       </div>
     </div>
