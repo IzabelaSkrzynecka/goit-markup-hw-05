@@ -456,21 +456,21 @@
       <div class="modal">
         <p class="modal-header">Zostaw swoje dane w formularzu poniżej</p>
         <form>
-        <label class="label-form">Imie
-      <input type="text" class="input-form />
+        <label class="label-form" for="user_name"><p class="label-position">Imie</p>
+      <input type="text" id="user_name" name="name" class="input-form" />
       <svg class="icon-form">
         <use href="./images/icons.svg#icon-icon-person" width="18"></use>
       </svg> 
     </label>
     
-    <label class="label-form">Telefon
-      <input type="text" class="input-form />
+    <label class="label-form" for="user_phone"><p class="label-position">Telefon</p>
+      <input type="text" id="user_phone" name="phone" class="input-form" />
       <svg class="icon-form">
         <use href="./images/icons.svg#icon-icon-email" width="18"></use>
       </svg>
     </label>
-    <label class="label-form">Email
-      <input type="text" class="input-form"/>
+    <label class="label-form" for="user_email"><p class="label-position">Email</p>
+      <input type="text" id="user_email" name="email" class="input-form"/>
       <svg class="icon-form">
         <use href="./images/icons.svg#icon-icon-person1" width="18"></use>
       </svg>
@@ -484,11 +484,12 @@
               name="policy"
             />
             <label for="user-policy" class="modal-form-policy-text"
-              >Oświadczam iż akceptuje<a href="#" class="blue"> Regulamin</span> i <a href="#">Politykę Prywatności</span></label
+              >Oświadczam iż akceptuje<a href="#" class="blue"> Regulamin</a> i <a href="#" class="blue">Politykę Prywatności</a></label
             >
           </label>
+               
           <button type="submit" class="form-btn">Wyślij</button>
-        </form>
+   </form>
         <button type="button" class="close-btn" data-modal-close>X</button>
       </div>
     </div>
